@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test on Chrome Browser(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="saucedemo.tests.ProductDetailsPageTest">
+        <methods>
+          <include name="testToVerifyProductDescriptionOnProductDetailsPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saucedemo.tests.ProductDetailsPageTest -->
+    </classes>
+  </test> <!-- Test on Chrome Browser(failed) -->
+  <test name="Test on Firefox Browser(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="saucedemo.tests.ProductDetailsPageTest">
+        <methods>
+          <include name="testToVerifyProductDescriptionOnProductDetailsPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saucedemo.tests.ProductDetailsPageTest -->
+    </classes>
+  </test> <!-- Test on Firefox Browser(failed) -->
+  <test name="Test on Edge Browser(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="saucedemo.tests.ProductDetailsPageTest">
+        <methods>
+          <include name="testToVerifyProductDescriptionOnProductDetailsPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saucedemo.tests.ProductDetailsPageTest -->
+    </classes>
+  </test> <!-- Test on Edge Browser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

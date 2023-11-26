@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Saucedemo Automation Suite">
+	<test name="Cross browser testing on Chrome Browser">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="saucedemo.tests.LoginPageTest" />
+			<class name="saucedemo.tests.LogoutTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Cross browser testing on Firefox Browser">
+		<parameter name="browser" value="Firefox"></parameter>
+		<classes>
+			<class name="saucedemo.tests.LoginPageTest" />
+			<class name="saucedemo.tests.LogoutTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Cross browser testing on Edge Browser">
+		<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="saucedemo.tests.LoginPageTest" />
+			<class name="saucedemo.tests.LogoutTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

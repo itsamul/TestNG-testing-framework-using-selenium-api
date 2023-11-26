@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Saucedemo Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="saucedemo.listener.DemoListener"/>
+  </listeners>
+  <test name="Functional test for saucedemo(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="saucedemo.tests.ProductDetailsPageTest">
+        <methods>
+          <include name="testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink"/>
+          <include name="testToVerifyProductPriceOnProductDetailsPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saucedemo.tests.ProductDetailsPageTest -->
+      <class name="saucedemo.tests.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testLoginWithLockedCredentials"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saucedemo.tests.LoginPageTest -->
+      <class name="saucedemo.tests.ProductListPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testToVerifyProductDetailsPageIsDisplayed"/>
+        </methods>
+      </class> <!-- saucedemo.tests.ProductListPageTest -->
+    </classes>
+  </test> <!-- Functional test for saucedemo(failed) -->
+</suite> <!-- Failed suite [Saucedemo Automation Suite] -->

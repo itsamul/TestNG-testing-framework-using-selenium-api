@@ -1,0 +1,7 @@
+saucedemo\pages\ApplicationHeader.class
+saucedemo\listener\DemoListener.class
+saucedemo\base\BaseTest.class
+saucedemo\pages\ProductDetailsPage.class
+saucedemo\utils\ConfigReader.class
+saucedemo\pages\LoginPage.class
+saucedemo\pages\ProductListPage.class

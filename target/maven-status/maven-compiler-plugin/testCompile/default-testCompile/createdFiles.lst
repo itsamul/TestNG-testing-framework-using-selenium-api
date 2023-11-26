@@ -1,0 +1,5 @@
+saucedemo\tests\ProductDetailsPageTest.class
+saucedemo\tests\LogoutTest.class
+saucedemo\dataprovider\DataProvidersDemo.class
+saucedemo\tests\ProductListPageTest.class
+saucedemo\tests\LoginPageTest.class

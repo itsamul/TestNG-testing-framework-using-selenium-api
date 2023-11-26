@@ -1,0 +1,318 @@
+<html>
+<head>
+<title>TestNG:  Functional test for saucedemo</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional test for saucedemo</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 25 22:15:44 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47125 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='saucedemo.tests.LoginPageTest.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: saucedemo.tests.LoginPageTest<br>Test method: Test to login with invalid credentials<br/>
+<a href="#Output-1827710791" onClick='toggleBox("Output-1827710791", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1827710791" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1827710791">
+Execution of 'testLoginWithInvalidCredentials' has Started.<br/>
+Username field cleared<br/>
+standard_userx entered in the username field<br/>
+Username field cleared<br/>
+secret_saucex entered in the password field<br/>
+Clicked on the login button.<br/>
+Error message displayed is Epic sadface: Username and password do not match any user in this service<br/>
+Execution of 'testLoginWithInvalidCredentials' has passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemo.tests.LoginPageTest@3315d2d7</td></tr>
+<tr>
+<td title='saucedemo.tests.LoginPageTest.testLoginWithLockedCredentials()'><b>testLoginWithLockedCredentials</b><br>Test class: saucedemo.tests.LoginPageTest<br>Test method: Test to login with locked credentials<br/>
+<a href="#Output-1437977899" onClick='toggleBox("Output-1437977899", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1437977899" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1437977899">
+Execution of 'testLoginWithLockedCredentials' has Started.<br/>
+Username field cleared<br/>
+locked_out_user entered in the username field<br/>
+Username field cleared<br/>
+secret_sauce entered in the password field<br/>
+Clicked on the login button.<br/>
+Error message displayed is Epic sadface: Sorry, this user has been locked out.<br/>
+Execution of 'testLoginWithLockedCredentials' has passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemo.tests.LoginPageTest@3315d2d7</td></tr>
+<tr>
+<td title='saucedemo.tests.LoginPageTest.testLoginWithValidCredentials()'><b>testLoginWithValidCredentials</b><br>Test class: saucedemo.tests.LoginPageTest<br>Test method: Test to login with valid credentials<br/>
+<a href="#Output-2096194236" onClick='toggleBox("Output-2096194236", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2096194236" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2096194236">
+Execution of 'testLoginWithValidCredentials' has Started.<br/>
+Username field cleared<br/>
+standard_user entered in the username field<br/>
+Username field cleared<br/>
+secret_sauce entered in the password field<br/>
+Clicked on the login button.<br/>
+Page header displayed is Products<br/>
+Execution of 'testLoginWithValidCredentials' has passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemo.tests.LoginPageTest@3315d2d7</td></tr>
+<tr>
+<td title='saucedemo.tests.LogoutTest.testToLogoutFromProductDetailsPage()'><b>testToLogoutFromProductDetailsPage</b><br>Test class: saucedemo.tests.LogoutTest<br>Test method: Test to logout from product details page<br/>
+<a href="#Output-454248060" onClick='toggleBox("Output-454248060", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-454248060" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-454248060">
+Execution of 'testToLogoutFromProductDetailsPage' has Started.<br/>
+Username field cleared<br/>
+standard_user entered in the username field<br/>
+Username field cleared<br/>
+secret_sauce entered in the password field<br/>
+Clicked on the login button.<br/>
+Clicked on the product Sauce Labs Backpack<br/>
+Clicked on the Menu button.<br/>
+Clicked on the logout button.<br/>
+Login page displayed.<br/>
+Execution of 'testToLogoutFromProductDetailsPage' has passed.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>saucedemo.tests.LogoutTest@55b53d44</td></tr>
+<tr>
+<td title='saucedemo.tests.LogoutTest.testToLogoutFromProductListPage()'><b>testToLogoutFromProductListPage</b><br>Test class: saucedemo.tests.LogoutTest<br>Test method: Test to logout from product list page<br/>
+<a href="#Output-724886412" onClick='toggleBox("Output-724886412", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-724886412" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-724886412">
+Execution of 'testToLogoutFromProductListPage' has Started.<br/>
+Username field cleared<br/>
+standard_user entered in the username field<br/>
+Username field cleared<br/>
+secret_sauce entered in the password field<br/>
+Clicked on the login button.<br/>
+Clicked on the Menu button.<br/>
+Clicked on the logout button.<br/>
+Login page displayed.<br/>
+Execution of 'testToLogoutFromProductListPage' has passed.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>saucedemo.tests.LogoutTest@55b53d44</td></tr>
+<tr>
+<td title='saucedemo.tests.ProductListPageTest.testToVerifyFooterNote()'><b>testToVerifyFooterNote</b><br>Test class: saucedemo.tests.ProductListPageTest<br/>
+<a href="#Output-1849941462" onClick='toggleBox("Output-1849941462", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1849941462" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1849941462">
+Execution of 'testToVerifyFooterNote' has Started.<br/>
+Username field cleared<br/>
+standard_user entered in the username field<br/>
+Username field cleared<br/>
+secret_sauce entered in the password field<br/>
+Clicked on the login button.<br/>
+Footer note displayed is © 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy<br/>
+Execution of 'testToVerifyFooterNote' has passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemo.tests.ProductListPageTest@d6e7bab</td></tr>
+<tr>
+<td title='saucedemo.tests.ProductListPageTest.testToVerifyPageHeader()'><b>testToVerifyPageHeader</b><br>Test class: saucedemo.tests.ProductListPageTest<br/>
+<a href="#Output-1952194564" onClick='toggleBox("Output-1952194564", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1952194564" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1952194564">
+Execution of 'testToVerifyPageHeader' has Started.<br/>
+Username field cleared<br/>
+standard_user entered in the username field<br/>
+Username field cleared<br/>
+secret_sauce entered in the password field<br/>
+Clicked on the login button.<br/>
+Page header displayed is Products<br/>
+Execution of 'testToVerifyPageHeader' has passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemo.tests.ProductListPageTest@d6e7bab</td></tr>
+<tr>
+<td title='saucedemo.tests.ProductDetailsPageTest.testToVerifyProductDescriptionOnProductDetailsPage()'><b>testToVerifyProductDescriptionOnProductDetailsPage</b><br>Test class: saucedemo.tests.ProductDetailsPageTest<br>Test method: Test to verify product description on product details page<br>Parameters: Sauce Labs Backpack, carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.<br/>
+<a href="#Output-131532344" onClick='toggleBox("Output-131532344", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131532344" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131532344">
+Execution of 'testToVerifyProductDescriptionOnProductDetailsPage' has Started.<br/>
+Username field cleared<br/>
+standard_user entered in the username field<br/>
+Username field cleared<br/>
+secret_sauce entered in the password field<br/>
+Clicked on the login button.<br/>
+Clicked on the product Sauce Labs Backpack<br/>
+Product description displayed is carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.<br/>
+Execution of 'testToVerifyProductDescriptionOnProductDetailsPage' has passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemo.tests.ProductDetailsPageTest@5fa07e12</td></tr>
+<tr>
+<td title='saucedemo.tests.ProductListPageTest.testToVerifyProductDetailsPageIsDisplayed()'><b>testToVerifyProductDetailsPageIsDisplayed</b><br>Test class: saucedemo.tests.ProductListPageTest<br/>
+<a href="#Output-1078031260" onClick='toggleBox("Output-1078031260", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1078031260" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1078031260">
+Execution of 'testToVerifyProductDetailsPageIsDisplayed' has Started.<br/>
+Username field cleared<br/>
+standard_user entered in the username field<br/>
+Username field cleared<br/>
+secret_sauce entered in the password field<br/>
+Clicked on the login button.<br/>
+Clicked on the product Sauce Labs Backpack<br/>
+Execution of 'testToVerifyProductDetailsPageIsDisplayed' has passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemo.tests.ProductListPageTest@d6e7bab</td></tr>
+<tr>
+<td title='saucedemo.tests.ProductDetailsPageTest.testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink()'><b>testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink</b><br>Test class: saucedemo.tests.ProductDetailsPageTest<br>Test method: Test to verify product list page is displayed when clicked on Back to products link on product details page<br/>
+<a href="#Output-1327478824" onClick='toggleBox("Output-1327478824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1327478824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1327478824">
+Execution of 'testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink' has Started.<br/>
+Username field cleared<br/>
+standard_user entered in the username field<br/>
+Username field cleared<br/>
+secret_sauce entered in the password field<br/>
+Clicked on the login button.<br/>
+Page header displayed is Products<br/>
+Clicked on the product Sauce Labs Backpack<br/>
+Clicked on the Back to product link.<br/>
+Page header displayed is Products<br/>
+Execution of 'testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink' has passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemo.tests.ProductDetailsPageTest@5fa07e12</td></tr>
+<tr>
+<td title='saucedemo.tests.ProductDetailsPageTest.testToVerifyProductNameOnProductDetailsPage()'><b>testToVerifyProductNameOnProductDetailsPage</b><br>Test class: saucedemo.tests.ProductDetailsPageTest<br>Test method: Test to verify product name on product details page<br>Parameters: Sauce Labs Backpack<br/>
+<a href="#Output-182052414" onClick='toggleBox("Output-182052414", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-182052414" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-182052414">
+Execution of 'testToVerifyProductNameOnProductDetailsPage' has Started.<br/>
+Username field cleared<br/>
+standard_user entered in the username field<br/>
+Username field cleared<br/>
+secret_sauce entered in the password field<br/>
+Clicked on the login button.<br/>
+Clicked on the product Sauce Labs Backpack<br/>
+Product name displayed is Sauce Labs Backpack<br/>
+Execution of 'testToVerifyProductNameOnProductDetailsPage' has passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemo.tests.ProductDetailsPageTest@5fa07e12</td></tr>
+<tr>
+<td title='saucedemo.tests.ProductDetailsPageTest.testToVerifyProductPriceOnProductDetailsPage()'><b>testToVerifyProductPriceOnProductDetailsPage</b><br>Test class: saucedemo.tests.ProductDetailsPageTest<br>Test method: Test to verify product price on product details page<br>Parameters: Sauce Labs Backpack, 29.99<br/>
+<a href="#Output-452236638" onClick='toggleBox("Output-452236638", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-452236638" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-452236638">
+Execution of 'testToVerifyProductPriceOnProductDetailsPage' has Started.<br/>
+Username field cleared<br/>
+standard_user entered in the username field<br/>
+Username field cleared<br/>
+secret_sauce entered in the password field<br/>
+Clicked on the login button.<br/>
+Clicked on the product Sauce Labs Backpack<br/>
+Product price displayed is 29.99<br/>
+Execution of 'testToVerifyProductPriceOnProductDetailsPage' has passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemo.tests.ProductDetailsPageTest@5fa07e12</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="13" passed="12" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[config.properties file loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testLoginWithValidCredentials' has Started.]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[standard_user entered in the username field]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[secret_sauce entered in the password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the login button.]]>
+    </line>
+    <line>
+      <![CDATA[Page header displayed is Products]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testLoginWithValidCredentials' has passed.]]>
+    </line>
+    <line>
+      <![CDATA[config.properties file loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyPageHeader' has Started.]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[standard_user entered in the username field]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[secret_sauce entered in the password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the login button.]]>
+    </line>
+    <line>
+      <![CDATA[Page header displayed is Products]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyPageHeader' has passed.]]>
+    </line>
+    <line>
+      <![CDATA[config.properties file loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyProductNameOnProductDetailsPage' has Started.]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[standard_user entered in the username field]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[secret_sauce entered in the password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the login button.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the product Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Product name displayed is Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyProductNameOnProductDetailsPage' has passed.]]>
+    </line>
+    <line>
+      <![CDATA[config.properties file loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToLogoutFromProductListPage' has Started.]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[standard_user entered in the username field]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[secret_sauce entered in the password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the login button.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the Menu button.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the logout button.]]>
+    </line>
+    <line>
+      <![CDATA[Login page displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToLogoutFromProductListPage' has passed.]]>
+    </line>
+    <line>
+      <![CDATA[config.properties file loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testLoginWithInvalidCredentials' has Started.]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[standard_userx entered in the username field]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[secret_saucex entered in the password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the login button.]]>
+    </line>
+    <line>
+      <![CDATA[Error message displayed is Epic sadface: Username and password do not match any user in this service]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testLoginWithInvalidCredentials' has passed.]]>
+    </line>
+    <line>
+      <![CDATA[config.properties file loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyFooterNote' has Started.]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[standard_user entered in the username field]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[secret_sauce entered in the password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the login button.]]>
+    </line>
+    <line>
+      <![CDATA[Footer note displayed is © 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyFooterNote' has passed.]]>
+    </line>
+    <line>
+      <![CDATA[config.properties file loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyProductDescriptionOnProductDetailsPage' has Started.]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[standard_user entered in the username field]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[secret_sauce entered in the password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the login button.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the product Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Product description displayed is carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyProductDescriptionOnProductDetailsPage' has passed.]]>
+    </line>
+    <line>
+      <![CDATA[config.properties file loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToLogoutFromProductDetailsPage' has Started.]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[standard_user entered in the username field]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[secret_sauce entered in the password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the login button.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the product Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the Menu button.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the logout button.]]>
+    </line>
+    <line>
+      <![CDATA[Login page displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToLogoutFromProductDetailsPage' has passed.]]>
+    </line>
+    <line>
+      <![CDATA[config.properties file loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testLoginWithLockedCredentials' has Started.]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[locked_out_user entered in the username field]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[secret_sauce entered in the password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the login button.]]>
+    </line>
+    <line>
+      <![CDATA[Error message displayed is Epic sadface: Sorry, this user has been locked out.]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testLoginWithLockedCredentials' has passed.]]>
+    </line>
+    <line>
+      <![CDATA[config.properties file loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyProductDetailsPageIsDisplayed' has Started.]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[standard_user entered in the username field]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[secret_sauce entered in the password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the login button.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the product Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyProductDetailsPageIsDisplayed' has passed.]]>
+    </line>
+    <line>
+      <![CDATA[config.properties file loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyProductPriceOnProductDetailsPage' has Started.]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[standard_user entered in the username field]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[secret_sauce entered in the password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the login button.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the product Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Product price displayed is 29.99]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyProductPriceOnProductDetailsPage' has passed.]]>
+    </line>
+    <line>
+      <![CDATA[config.properties file loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url https://www.saucedemo.com]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink' has Started.]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[standard_user entered in the username field]]>
+    </line>
+    <line>
+      <![CDATA[Username field cleared]]>
+    </line>
+    <line>
+      <![CDATA[secret_sauce entered in the password field]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the login button.]]>
+    </line>
+    <line>
+      <![CDATA[Page header displayed is Products]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the product Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the Back to product link.]]>
+    </line>
+    <line>
+      <![CDATA[Page header displayed is Products]]>
+    </line>
+    <line>
+      <![CDATA[Execution of 'testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink' has passed.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-25T16:45:44Z" name="Saucedemo Automation Suite" finished-at="2023-11-25T16:46:31Z" duration-ms="47125">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginPageTest.testLoginWithInvalidCredentials()[pri:2, instance:saucedemo.tests.LoginPageTest@3315d2d7]" name="testLoginWithInvalidCredentials" class="saucedemo.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.testLoginWithLockedCredentials()[pri:3, instance:saucedemo.tests.LoginPageTest@3315d2d7]" name="testLoginWithLockedCredentials" class="saucedemo.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.testLoginWithValidCredentials()[pri:1, instance:saucedemo.tests.LoginPageTest@3315d2d7]" name="testLoginWithValidCredentials" class="saucedemo.tests.LoginPageTest"/>
+        <method signature="LogoutTest.testToLogoutFromProductDetailsPage()[pri:2, instance:saucedemo.tests.LogoutTest@55b53d44]" name="testToLogoutFromProductDetailsPage" class="saucedemo.tests.LogoutTest"/>
+        <method signature="LogoutTest.testToLogoutFromProductListPage()[pri:1, instance:saucedemo.tests.LogoutTest@55b53d44]" name="testToLogoutFromProductListPage" class="saucedemo.tests.LogoutTest"/>
+        <method signature="ProductDetailsPageTest.testToVerifyProductDescriptionOnProductDetailsPage(java.lang.String, java.lang.String)[pri:2, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" name="testToVerifyProductDescriptionOnProductDetailsPage" class="saucedemo.tests.ProductDetailsPageTest"/>
+        <method signature="ProductDetailsPageTest.testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink()[pri:4, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" name="testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink" class="saucedemo.tests.ProductDetailsPageTest"/>
+        <method signature="ProductDetailsPageTest.testToVerifyProductNameOnProductDetailsPage(java.lang.String)[pri:1, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" name="testToVerifyProductNameOnProductDetailsPage" class="saucedemo.tests.ProductDetailsPageTest"/>
+        <method signature="ProductDetailsPageTest.testToVerifyProductPriceOnProductDetailsPage(java.lang.String, java.lang.String)[pri:3, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" name="testToVerifyProductPriceOnProductDetailsPage" class="saucedemo.tests.ProductDetailsPageTest"/>
+        <method signature="ProductListPageTest.testToVerifyFooterNote()[pri:2, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" name="testToVerifyFooterNote" class="saucedemo.tests.ProductListPageTest"/>
+        <method signature="ProductListPageTest.testToVerifyPageHeader()[pri:1, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" name="testToVerifyPageHeader" class="saucedemo.tests.ProductListPageTest"/>
+        <method signature="ProductListPageTest.testToVerifyProductDetailsPageIsDisplayed()[pri:3, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" name="testToVerifyProductDetailsPageIsDisplayed" class="saucedemo.tests.ProductListPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginPageTest.testLoginWithInvalidCredentials()[pri:2, instance:saucedemo.tests.LoginPageTest@3315d2d7]" name="testLoginWithInvalidCredentials" class="saucedemo.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.testLoginWithValidCredentials()[pri:1, instance:saucedemo.tests.LoginPageTest@3315d2d7]" name="testLoginWithValidCredentials" class="saucedemo.tests.LoginPageTest"/>
+        <method signature="LogoutTest.testToLogoutFromProductDetailsPage()[pri:2, instance:saucedemo.tests.LogoutTest@55b53d44]" name="testToLogoutFromProductDetailsPage" class="saucedemo.tests.LogoutTest"/>
+        <method signature="LogoutTest.testToLogoutFromProductListPage()[pri:1, instance:saucedemo.tests.LogoutTest@55b53d44]" name="testToLogoutFromProductListPage" class="saucedemo.tests.LogoutTest"/>
+        <method signature="ProductDetailsPageTest.testToVerifyProductNameOnProductDetailsPage(java.lang.String)[pri:1, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" name="testToVerifyProductNameOnProductDetailsPage" class="saucedemo.tests.ProductDetailsPageTest"/>
+        <method signature="ProductListPageTest.testToVerifyPageHeader()[pri:1, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" name="testToVerifyPageHeader" class="saucedemo.tests.ProductListPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-11-25T16:45:44Z" name="Functional test for saucedemo" finished-at="2023-11-25T16:46:31Z" duration-ms="47125">
+      <class name="saucedemo.tests.ProductDetailsPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" started-at="2023-11-25T22:15:53Z" name="setup" finished-at="2023-11-25T22:15:55Z" duration-ms="2746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[config.properties file loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser launched.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url https://www.saucedemo.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testToVerifyProductNameOnProductDetailsPage(java.lang.String)[pri:1, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" started-at="2023-11-25T22:15:55Z" name="testToVerifyProductNameOnProductDetailsPage" description="Test to verify product name on product details page" data-provider="productName" finished-at="2023-11-25T22:15:56Z" duration-ms="757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sauce Labs Backpack]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of 'testToVerifyProductNameOnProductDetailsPage' has Started.]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[standard_user entered in the username field]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[secret_sauce entered in the password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the login button.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the product Sauce Labs Backpack]]>
+            </line>
+            <line>
+              <![CDATA[Product name displayed is Sauce Labs Backpack]]>
+            </line>
+            <line>
+              <![CDATA[Execution of 'testToVerifyProductNameOnProductDetailsPage' has passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testToVerifyProductNameOnProductDetailsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" started-at="2023-11-25T22:15:56Z" name="tearDown" finished-at="2023-11-25T22:15:57Z" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" started-at="2023-11-25T22:16:08Z" name="setup" finished-at="2023-11-25T22:16:11Z" duration-ms="2794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[config.properties file loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser launched.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url https://www.saucedemo.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testToVerifyProductDescriptionOnProductDetailsPage(java.lang.String, java.lang.String)[pri:2, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" started-at="2023-11-25T22:16:11Z" name="testToVerifyProductDescriptionOnProductDetailsPage" description="Test to verify product description on product details page" data-provider="productDescription" finished-at="2023-11-25T22:16:12Z" duration-ms="830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sauce Labs Backpack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of 'testToVerifyProductDescriptionOnProductDetailsPage' has Started.]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[standard_user entered in the username field]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[secret_sauce entered in the password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the login button.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the product Sauce Labs Backpack]]>
+            </line>
+            <line>
+              <![CDATA[Product description displayed is carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]>
+            </line>
+            <line>
+              <![CDATA[Execution of 'testToVerifyProductDescriptionOnProductDetailsPage' has passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testToVerifyProductDescriptionOnProductDetailsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" started-at="2023-11-25T22:16:12Z" name="tearDown" finished-at="2023-11-25T22:16:12Z" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" started-at="2023-11-25T22:16:24Z" name="setup" finished-at="2023-11-25T22:16:26Z" duration-ms="2553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[config.properties file loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser launched.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url https://www.saucedemo.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testToVerifyProductPriceOnProductDetailsPage(java.lang.String, java.lang.String)[pri:3, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" started-at="2023-11-25T22:16:26Z" name="testToVerifyProductPriceOnProductDetailsPage" description="Test to verify product price on product details page" data-provider="productPrice" finished-at="2023-11-25T22:16:27Z" duration-ms="718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sauce Labs Backpack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29.99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of 'testToVerifyProductPriceOnProductDetailsPage' has Started.]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[standard_user entered in the username field]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[secret_sauce entered in the password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the login button.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the product Sauce Labs Backpack]]>
+            </line>
+            <line>
+              <![CDATA[Product price displayed is 29.99]]>
+            </line>
+            <line>
+              <![CDATA[Execution of 'testToVerifyProductPriceOnProductDetailsPage' has passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testToVerifyProductPriceOnProductDetailsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" started-at="2023-11-25T22:16:27Z" name="tearDown" finished-at="2023-11-25T22:16:27Z" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" started-at="2023-11-25T22:16:27Z" name="setup" finished-at="2023-11-25T22:16:30Z" duration-ms="2569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[config.properties file loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser launched.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url https://www.saucedemo.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink()[pri:4, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" started-at="2023-11-25T22:16:30Z" name="testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink" description="Test to verify product list page is displayed when clicked on Back to products link on product details page" finished-at="2023-11-25T22:16:31Z" duration-ms="863" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of 'testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink' has Started.]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[standard_user entered in the username field]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[secret_sauce entered in the password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the login button.]]>
+            </line>
+            <line>
+              <![CDATA[Page header displayed is Products]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the product Sauce Labs Backpack]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the Back to product link.]]>
+            </line>
+            <line>
+              <![CDATA[Page header displayed is Products]]>
+            </line>
+            <line>
+              <![CDATA[Execution of 'testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink' has passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testToVerifyProductListPageIsDisplayedonClickingBackToProductsLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.tests.ProductDetailsPageTest@5fa07e12]" started-at="2023-11-25T22:16:31Z" name="tearDown" finished-at="2023-11-25T22:16:31Z" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemo.tests.ProductDetailsPageTest -->
+      <class name="saucedemo.tests.ProductListPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" started-at="2023-11-25T22:15:49Z" name="setup" finished-at="2023-11-25T22:15:52Z" duration-ms="2705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[config.properties file loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser launched.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url https://www.saucedemo.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testToVerifyPageHeader()[pri:1, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" started-at="2023-11-25T22:15:52Z" name="testToVerifyPageHeader" finished-at="2023-11-25T22:15:52Z" duration-ms="580" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of 'testToVerifyPageHeader' has Started.]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[standard_user entered in the username field]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[secret_sauce entered in the password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the login button.]]>
+            </line>
+            <line>
+              <![CDATA[Page header displayed is Products]]>
+            </line>
+            <line>
+              <![CDATA[Execution of 'testToVerifyPageHeader' has passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testToVerifyPageHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" started-at="2023-11-25T22:15:52Z" name="tearDown" finished-at="2023-11-25T22:15:53Z" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" started-at="2023-11-25T22:16:04Z" name="setup" finished-at="2023-11-25T22:16:07Z" duration-ms="2713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[config.properties file loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser launched.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url https://www.saucedemo.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testToVerifyFooterNote()[pri:2, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" started-at="2023-11-25T22:16:07Z" name="testToVerifyFooterNote" finished-at="2023-11-25T22:16:08Z" duration-ms="568" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of 'testToVerifyFooterNote' has Started.]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[standard_user entered in the username field]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[secret_sauce entered in the password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the login button.]]>
+            </line>
+            <line>
+              <![CDATA[Footer note displayed is © 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy]]>
+            </line>
+            <line>
+              <![CDATA[Execution of 'testToVerifyFooterNote' has passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testToVerifyFooterNote -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" started-at="2023-11-25T22:16:08Z" name="tearDown" finished-at="2023-11-25T22:16:08Z" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" started-at="2023-11-25T22:16:20Z" name="setup" finished-at="2023-11-25T22:16:23Z" duration-ms="2625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[config.properties file loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser launched.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url https://www.saucedemo.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testToVerifyProductDetailsPageIsDisplayed()[pri:3, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" started-at="2023-11-25T22:16:23Z" name="testToVerifyProductDetailsPageIsDisplayed" finished-at="2023-11-25T22:16:23Z" duration-ms="698" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of 'testToVerifyProductDetailsPageIsDisplayed' has Started.]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[standard_user entered in the username field]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[secret_sauce entered in the password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the login button.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the product Sauce Labs Backpack]]>
+            </line>
+            <line>
+              <![CDATA[Execution of 'testToVerifyProductDetailsPageIsDisplayed' has passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testToVerifyProductDetailsPageIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.tests.ProductListPageTest@d6e7bab]" started-at="2023-11-25T22:16:23Z" name="tearDown" finished-at="2023-11-25T22:16:24Z" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemo.tests.ProductListPageTest -->
+      <class name="saucedemo.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:saucedemo.tests.LoginPageTest@3315d2d7]" started-at="2023-11-25T22:15:44Z" name="setup" finished-at="2023-11-25T22:15:48Z" duration-ms="4331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[config.properties file loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser launched.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url https://www.saucedemo.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithValidCredentials()[pri:1, instance:saucedemo.tests.LoginPageTest@3315d2d7]" started-at="2023-11-25T22:15:48Z" name="testLoginWithValidCredentials" description="Test to login with valid credentials" finished-at="2023-11-25T22:15:49Z" duration-ms="617" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of 'testLoginWithValidCredentials' has Started.]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[standard_user entered in the username field]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[secret_sauce entered in the password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the login button.]]>
+            </line>
+            <line>
+              <![CDATA[Page header displayed is Products]]>
+            </line>
+            <line>
+              <![CDATA[Execution of 'testLoginWithValidCredentials' has passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.tests.LoginPageTest@3315d2d7]" started-at="2023-11-25T22:15:49Z" name="tearDown" finished-at="2023-11-25T22:15:49Z" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:saucedemo.tests.LoginPageTest@3315d2d7]" started-at="2023-11-25T22:16:01Z" name="setup" finished-at="2023-11-25T22:16:04Z" duration-ms="2680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[config.properties file loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser launched.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url https://www.saucedemo.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithInvalidCredentials()[pri:2, instance:saucedemo.tests.LoginPageTest@3315d2d7]" started-at="2023-11-25T22:16:04Z" name="testLoginWithInvalidCredentials" description="Test to login with invalid credentials" finished-at="2023-11-25T22:16:04Z" duration-ms="497" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of 'testLoginWithInvalidCredentials' has Started.]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[standard_userx entered in the username field]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[secret_saucex entered in the password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the login button.]]>
+            </line>
+            <line>
+              <![CDATA[Error message displayed is Epic sadface: Username and password do not match any user in this service]]>
+            </line>
+            <line>
+              <![CDATA[Execution of 'testLoginWithInvalidCredentials' has passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.tests.LoginPageTest@3315d2d7]" started-at="2023-11-25T22:16:04Z" name="tearDown" finished-at="2023-11-25T22:16:04Z" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:saucedemo.tests.LoginPageTest@3315d2d7]" started-at="2023-11-25T22:16:17Z" name="setup" finished-at="2023-11-25T22:16:19Z" duration-ms="2723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[config.properties file loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser launched.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url https://www.saucedemo.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithLockedCredentials()[pri:3, instance:saucedemo.tests.LoginPageTest@3315d2d7]" started-at="2023-11-25T22:16:19Z" name="testLoginWithLockedCredentials" description="Test to login with locked credentials" finished-at="2023-11-25T22:16:20Z" duration-ms="501" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of 'testLoginWithLockedCredentials' has Started.]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[locked_out_user entered in the username field]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[secret_sauce entered in the password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the login button.]]>
+            </line>
+            <line>
+              <![CDATA[Error message displayed is Epic sadface: Sorry, this user has been locked out.]]>
+            </line>
+            <line>
+              <![CDATA[Execution of 'testLoginWithLockedCredentials' has passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginWithLockedCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.tests.LoginPageTest@3315d2d7]" started-at="2023-11-25T22:16:20Z" name="tearDown" finished-at="2023-11-25T22:16:20Z" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemo.tests.LoginPageTest -->
+      <class name="saucedemo.tests.LogoutTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:saucedemo.tests.LogoutTest@55b53d44]" started-at="2023-11-25T22:15:57Z" name="setup" finished-at="2023-11-25T22:15:59Z" duration-ms="2759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[config.properties file loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser launched.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url https://www.saucedemo.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testToLogoutFromProductListPage()[pri:1, instance:saucedemo.tests.LogoutTest@55b53d44]" started-at="2023-11-25T22:15:59Z" name="testToLogoutFromProductListPage" description="Test to logout from product list page" finished-at="2023-11-25T22:16:01Z" duration-ms="1509" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of 'testToLogoutFromProductListPage' has Started.]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[standard_user entered in the username field]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[secret_sauce entered in the password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the login button.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the Menu button.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the logout button.]]>
+            </line>
+            <line>
+              <![CDATA[Login page displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Execution of 'testToLogoutFromProductListPage' has passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testToLogoutFromProductListPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.tests.LogoutTest@55b53d44]" started-at="2023-11-25T22:16:01Z" name="tearDown" finished-at="2023-11-25T22:16:01Z" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:saucedemo.tests.LogoutTest@55b53d44]" started-at="2023-11-25T22:16:12Z" name="setup" finished-at="2023-11-25T22:16:15Z" duration-ms="2652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[config.properties file loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Value of the key url is https://www.saucedemo.com]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser launched.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url https://www.saucedemo.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testToLogoutFromProductDetailsPage()[pri:2, instance:saucedemo.tests.LogoutTest@55b53d44]" started-at="2023-11-25T22:16:15Z" name="testToLogoutFromProductDetailsPage" description="Test to logout from product details page" finished-at="2023-11-25T22:16:16Z" duration-ms="1563" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution of 'testToLogoutFromProductDetailsPage' has Started.]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[standard_user entered in the username field]]>
+            </line>
+            <line>
+              <![CDATA[Username field cleared]]>
+            </line>
+            <line>
+              <![CDATA[secret_sauce entered in the password field]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the login button.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the product Sauce Labs Backpack]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the Menu button.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the logout button.]]>
+            </line>
+            <line>
+              <![CDATA[Login page displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Execution of 'testToLogoutFromProductDetailsPage' has passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testToLogoutFromProductDetailsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.tests.LogoutTest@55b53d44]" started-at="2023-11-25T22:16:16Z" name="tearDown" finished-at="2023-11-25T22:16:17Z" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemo.tests.LogoutTest -->
+    </test> <!-- Functional test for saucedemo -->
+  </suite> <!-- Saucedemo Automation Suite -->
+</testng-results>
